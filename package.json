@@ -1,0 +1,57 @@
+{
+  "name": "artistry-art-gallery",
+  "version": "1.0.0",
+  "description": "Premium Art Selling Website with Smooth Animations, Emotional Design, and High Conversion",
+  "homepage": "https://artistry-gallery.web.app",
+  "keywords": [
+    "art",
+    "gallery",
+    "ecommerce",
+    "react",
+    "firebase",
+    "premium",
+    "animation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.263.1",
+    "firebase": "^9.23.0",
+    "react-firebase-hooks": "^5.1.1"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "firebase deploy"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
